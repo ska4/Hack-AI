@@ -13,6 +13,3 @@ fatigue <- ggplot(med_data, aes(Fatigue, fill = Disease))+ geom_bar()
 difficult_breathing <- ggplot(med_data, aes(Difficulty.Breathing, fill = Disease))+ geom_bar()
 bp <- ggplot(med_data, aes(Blood.Pressure, fill = Disease))+ geom_bar()
 chol <- ggplot(med_data, aes(Cholesterol.Level, fill = Disease))+ geom_bar()
-
-
-source_python("openai.py")
