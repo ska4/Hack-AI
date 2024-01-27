@@ -24,7 +24,7 @@ pip install jedi>=0.16
 !pip install -q openai
 
 import openai
-openai.api_key = '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'
+openai.api_key = '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'
 
 def comp(PROMPT, MaxToken=50, outputs=3):
   response = openai.Completion.create(
